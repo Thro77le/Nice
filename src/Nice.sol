@@ -4,9 +4,9 @@ pragma solidity ^0.8.18;
 import { Strings } from "@openzeppelin/contracts/utils/Strings.sol";
 
 /// @author Throttle
-/// @title Pretty number formatting library
+/// @title Nice number formatting library
 /// @notice A library that returns number in decimal representation
-library Pretty {
+library Nice {
     using Strings for uint256;
     using Strings for int256;
 

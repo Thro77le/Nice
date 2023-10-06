@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import {Test, console2} from "forge-std/Test.sol";
-import {Pretty} from "../src/Pretty.sol";
+import {Test} from "forge-std/Test.sol";
+import {Nice} from "../src/Nice.sol";
 
-contract PrettyTest is Test {
-  using Pretty for uint256;
-  using Pretty for int256;
+contract NiceTest is Test {
+  using Nice for uint256;
+  using Nice for int256;
 
   function setUp() public {}
 
